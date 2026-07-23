@@ -6,7 +6,7 @@ import { GraduationCap, Building2, Code2 } from "lucide-react"
 const stats = [
   {
     icon: GraduationCap,
-    value: "7",
+    value: "8",
     label: "Semestres Cursados",
     description: "De formacion en Ingenieria en Software",
   },
