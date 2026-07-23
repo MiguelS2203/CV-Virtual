@@ -4,12 +4,12 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import { CheckCircle2 } from "lucide-react"
 
 const qualities = [
-  "Responsable y comprometida",
-  "Dinamica y proactiva",
+  "Responsable y comprometido",
+  "Dinamico y proactivo",
   "Trabajo en equipo",
   "Resolucion de problemas",
   "Aprendizaje continuo",
-  "Comunicacion efectiva",
+  "Comunicación efectiva",
 ]
 
 export function About() {
@@ -19,9 +19,8 @@ export function About() {
     <section id="sobre-mi" className="py-24 px-6">
       <div
         ref={ref}
-        className={`mx-auto max-w-6xl transition-all duration-700 ${
-          isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
-        }`}
+        className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
+          }`}
       >
         <div className="text-center mb-12">
           <p className="text-sm font-medium tracking-widest uppercase text-primary mb-2">
