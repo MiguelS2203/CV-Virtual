@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { ArrowDown, Mail, Github, Linkedin } from "lucide-react"
+import { ArrowDown, Mail } from "lucide-react"
 
 export function Hero() {
   return (
@@ -39,37 +39,6 @@ export function Hero() {
             >
               <Mail className="h-4 w-4" />
               Contacto
-            </a>
-          </div>
-
-          <div className="mt-6 flex items-center gap-5 md:justify-start justify-center">
-            <a
-              href="mailto:tu.correo@email.com"
-              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
-              aria-label="Email"
-            >
-              <Mail className="h-4 w-4" />
-              <span className="hidden sm:inline">tu.correo@email.com</span>
-            </a>
-            <a
-              href="https://linkedin.com/in/tu-perfil"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-4 w-4" />
-              <span className="hidden sm:inline">LinkedIn</span>
-            </a>
-            <a
-              href="https://github.com/tu-usuario"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
-              aria-label="GitHub"
-            >
-              <Github className="h-4 w-4" />
-              <span className="hidden sm:inline">GitHub</span>
             </a>
           </div>
         </div>
