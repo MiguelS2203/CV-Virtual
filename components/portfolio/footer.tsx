@@ -6,20 +6,20 @@ const socialLinks = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:tu.correo@email.com",
-    text: "tu.correo@email.com",
+    href: "mailto:miguelangelsalazarfiallo@hotmail.com",
+    text: "miguelangelsalazarfiallo@hotmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/tu-perfil",
-    text: "linkedin.com/in/tu-perfil",
+    href: "https://www.linkedin.com/in/miguel-angel-salazar-fiallo-41b4b5312/",
+    text: "linkedin.com/in/miguel-angel-salazar-fiallo",
   },
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/tu-usuario",
-    text: "github.com/tu-usuario",
+    href: "https://github.com/MiguelS2203",
+    text: "github.com/MiguelS2203",
   },
 ]
 
@@ -35,7 +35,7 @@ export function Footer() {
             {"Trabajemos juntos"}
           </h2>
           <p className="mt-3 text-sm text-primary-foreground/60 max-w-md mx-auto leading-relaxed">
-            {"Estoy abierta a nuevas oportunidades, colaboraciones y proyectos interesantes. No dudes en contactarme."}
+            {"Estoy abierto a nuevas oportunidades, colaboraciones y proyectos interesantes. No dudes en contactarme."}
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/40">
-            {"\u00A9 2026 Tu Nombre Completo. Todos los derechos reservados."}
+            {"\u00A9 2026 Miguel Angel Salazar Fiallo. Todos los derechos reservados."}
           </p>
         </div>
       </div>

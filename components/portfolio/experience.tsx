@@ -5,31 +5,20 @@ import { Briefcase, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    company: "Tech Solutions MX",
-    role: "Desarrolladora Frontend (Practicas)",
-    dates: "Ene 2025 - Jun 2025",
-    project: "Plataforma de Gestion Interna",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+    company: "Shrimptech",
+    dates: "Junio 2025 - Febrero 2026",
+    project: "Sistema de gestión de una empresa Camaronera",
+    technologies: ["TypeScript", "HTML", "CSS"],
     description:
-      "Desarrollo de interfaces de usuario para una plataforma de gestion empresarial. Implemente componentes reutilizables, optimice el rendimiento y colabore con el equipo de backend para integrar APIs REST.",
+      "Participe en el desarrollo de interfaces de usuario para una el módulo de ventas. Implemente componentes reutilizables, optimice el rendimiento, añadi tablas, total de compras y colabore con el equipo de backend para integrar APIs REST.",
   },
   {
-    company: "StartUp Digital",
-    role: "Desarrolladora Full Stack (Practicas)",
-    dates: "Jul 2024 - Dic 2024",
-    project: "App Movil de Delivery",
-    technologies: ["React Native", "Node.js", "MongoDB", "Firebase"],
+    company: "Mundo sobre Ruedas",
+    dates: "Abril 2025 - Mayo 2025",
+    project: "Sitio web informativo sobre autos",
+    technologies: ["HTML", "CSS"],
     description:
-      "Participe en el desarrollo de una aplicacion movil de entrega a domicilio. Disemine la arquitectura de la base de datos, desarrolle endpoints de la API y cree pantallas de la aplicacion movil.",
-  },
-  {
-    company: "Universidad - Proyecto Vinculado",
-    role: "Lider de Equipo de Desarrollo",
-    dates: "Ene 2024 - Jun 2024",
-    project: "Sistema de Control Escolar",
-    technologies: ["Java", "Spring Boot", "MySQL", "Angular"],
-    description:
-      "Lidere un equipo de 5 personas en el desarrollo de un sistema de control escolar para una escuela local. Gestione el proyecto usando Scrum y fui responsable de la arquitectura del backend.",
+      "Participe en la creación de un sitio web informativo sobre el mundo automotriz, implementando una estructura en HTML5, diseño responsivo con CSS y una interfaz intuitiva para presentar contenido sobre historia, tipos de autos e innovación tecnológica.",
   },
 ]
 
@@ -40,16 +29,15 @@ export function Experience() {
     <section id="experiencia" className="py-24 px-6">
       <div
         ref={ref}
-        className={`mx-auto max-w-6xl transition-all duration-700 ${
-          isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
-        }`}
+        className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
+          }`}
       >
         <div className="text-center mb-12">
           <p className="text-sm font-medium tracking-widest uppercase text-primary mb-2">
             Trayectoria
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground text-balance">
-            Experiencia Profesional
+            Experiencia Educativa
           </h2>
         </div>
 
@@ -57,9 +45,8 @@ export function Experience() {
           {experiences.map((exp, index) => (
             <article
               key={exp.company}
-              className={`p-6 md:p-8 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300 ${
-                isVisible ? `animate-fade-up animate-delay-${(index + 1) * 100}` : ""
-              }`}
+              className={`p-6 md:p-8 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300 ${isVisible ? `animate-fade-up animate-delay-${(index + 1) * 100}` : ""
+                }`}
             >
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                 <div>
@@ -69,9 +56,6 @@ export function Experience() {
                       {exp.company}
                     </h3>
                   </div>
-                  <p className="text-sm font-medium text-primary">
-                    {exp.role}
-                  </p>
                   <p className="text-sm text-muted-foreground mt-1">
                     {"Proyecto: "}{exp.project}
                   </p>

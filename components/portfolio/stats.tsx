@@ -12,7 +12,7 @@ const stats = [
   },
   {
     icon: Building2,
-    value: "2",
+    value: "0",
     label: "Empresas / Practicas",
     description: "Experiencia en entornos profesionales reales",
   },
@@ -31,17 +31,15 @@ export function Stats() {
     <section className="py-16 px-6 bg-card border-y border-border">
       <div
         ref={ref}
-        className={`mx-auto max-w-6xl transition-all duration-700 ${
-          isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
-        }`}
+        className={`mx-auto max-w-6xl transition-all duration-700 ${isVisible ? "animate-fade-up" : "opacity-0 translate-y-8"
+          }`}
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {stats.map((stat, index) => (
             <div
               key={stat.label}
-              className={`text-center p-8 rounded-xl bg-background border border-border ${
-                isVisible ? `animate-fade-up animate-delay-${(index + 1) * 100}` : ""
-              }`}
+              className={`text-center p-8 rounded-xl bg-background border border-border ${isVisible ? `animate-fade-up animate-delay-${(index + 1) * 100}` : ""
+                }`}
             >
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-accent mb-4">
                 <stat.icon className="h-6 w-6 text-primary" />
