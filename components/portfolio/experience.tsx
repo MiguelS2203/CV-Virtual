@@ -6,7 +6,7 @@ import { Briefcase, Calendar } from "lucide-react"
 const experiences = [
   {
     company: "Shrimptech",
-    dates: "Junio 2025 - Febrero 2026",
+    dates: "Junio 2025 - Febrero",
     project: "Sistema de gestión de una empresa Camaronera",
     technologies: ["TypeScript", "HTML", "CSS"],
     description:
