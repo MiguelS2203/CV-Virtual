@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Tu Nombre Completo | Portafolio',
+  title: 'Miguel Angel Salazar Fiallo | Portafolio',
   description: 'Portafolio personal de estudiante de Ingenieria en Software - 8vo Semestre',
   generator: 'v0.app',
   icons: {
